@@ -1,0 +1,174 @@
+/* contains login, register and logout */
+
+article.success {
+    color: #080808;
+    display:inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    left: 0;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    top: 0;
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+.register {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 1em;
+    padding: 1em 2em 1em 2em;
+    position: absolute;
+    right: 1em;
+    text-align: center; 
+    top: 3em;
+}
+
+.register:hover, .register:focus {
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+.register:hover {
+    background-color: #49502d;
+    transform: translateY(-2px);
+}
+
+.loginbut {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    padding: 1em 2em 1em 2em;
+    position: absolute;
+    right: 1em;
+    text-align: center; 
+    top: 0.5em;
+}
+
+.loginbut:hover, .loginbut:focus {
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+.loginbut:hover {
+    background-color: #49502d;
+    transform: translateY(-2px);
+}
+
+.login input {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.login input:visited {
+    background-color:  #abac7f;
+}
+
+.login button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.login button:hover, .login button:focus {
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+.login button:hover {
+    background-color: #b9b990;
+    transform: translateY(-2px);
+}
+
+.login button:visited {
+    background-color:  #abac7f;
+}
+
+
+.logout button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5em;
+    margin-right: 2em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logout button:hover, .logout button:focus {
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+.logout button:hover {
+    background-color: #49502d;
+    transform: translateY(-2px);
+}
+
+.logout button:visited {
+    background-color:  #49502d;
+}

@@ -1,0 +1,245 @@
+/* DrawRestaurantCategories */
+
+#categories {
+    position: relative;
+    margin-top: 1em;
+}
+
+button#favorites {
+    position: absolute;
+    top: 12em;
+    right: 1em;
+}
+
+#category {
+    align-items: center;
+    background-color:  #373d20;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #fefefe;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 1em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#category:first-child {
+    margin-left: 2.5em;
+}
+
+/* drawRestaurants */
+
+#searchrestaurants {
+    width: 10%;
+    top: 11em;
+    right: 1em;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#favorites {
+    align-items: center;
+    background-color:  #abac7f;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #373d20;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 1em;
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+#favorites:hover, #favorites:focus {
+    background-color:  #b9b990;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+#favorites:hover {
+    transform: translateY(-2px);
+}
+
+#favorite {
+    align-items: center;
+    color: #fefefe;
+    font-size: 16px;
+}
+
+#favorite, .restname {
+    display: contents;
+}
+
+.none {
+    font-size: 17px;
+    text-align: center;
+}
+
+#sortreview {
+    align-items: center;
+    background-color:  #abac7f;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #373d20;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 2em;
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+#sortreview:hover, #sortreview:focus {
+    background-color:  #b9b990;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+#sortreview:hover {
+    transform: translateY(-2px);
+}
+
+article.places {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #abac7f;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #373d20;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.5em;
+    padding: 1em 2.5em 1em 2em;
+}
+
+.places a, .places p {
+    display: block;
+}
+
+.restphoto {
+    border-bottom: 1em;
+    border-left: 1em;
+    border-right: 10em;
+    border-top: 1em;
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 200px;
+}
+
+.restname {
+    color:#080808;
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-top: 0.3em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.restname:visited {
+    color:#080808;
+}
+
+/* DrawOwnerRestaurants */
+
+.ownerrestscore {
+    align-items: center;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    color: #373d20;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 1em;
+    text-align: center; 
+    width: auto;
+}
+
+a.editrest, .editrest{
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 1em;
+    padding: 1em 2.5em 1em 2em;
+    text-align: center; 
+    width: auto;
+}
+
+.editrest a:visited {
+    color: #fefefe;
+}
+
+.editrest a:hover, .editrest a:focus {
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+  
+.editrest:hover {
+    color: #fefefe;
+    background-color: #49502d;
+    transform: translateY(-2px);
+}
+
+.editrest a:visited, .editrest a:link {
+    color: #fefefe;
+}
+
+.places button:hover {
+    background-color: #49502d;
+    color: #fefefe;
+    transform: translateY(-2px);
+}
+
+button.addrest {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 2em;
+    padding: 1em 2.5em 1em 2em;
+    text-align: center; 
+    width: auto;
+}
+
+button.addrest:hover, button.addrest:focus {
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button.addrest:hover {
+    background-color: #49502d;
+    transform: translateY(-2px);
+}
+
+button.addrest a:visited {
+    color: #fefefe;
+}
+
+@media only screen and (max-width: 450px) {
+    
+}

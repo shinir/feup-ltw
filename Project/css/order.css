@@ -1,0 +1,74 @@
+/* drawOwnerOrders */
+
+.orderinfo {
+    align-items: center;
+    background-color:  #abac7f;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #080808;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.orderinfo span {
+    font-weight: 600;
+}
+
+.orderinfo a {
+    text-transform: capitalize;
+}
+
+.orderinfo a.quantity {
+    background-color: transparent;
+    color: #080808;
+    border-radius: 0em;
+    box-shadow: rgb(0 0 0 / 10%) 0 4px 12px;
+    border: 0em;
+    padding: 0em;
+}
+
+.orderinfo a button{
+    display: block;
+}
+
+.ordertrash {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center; 
+}
+.ordertrash a:visited, .ordertrash a:link {
+    color: #fefefe;
+}
+
+.ordernextstate {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #373d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center; 
+}
+
+.ordernextstate a:visited, .ordernextstate a:link {
+    color: #fefefe;
+}

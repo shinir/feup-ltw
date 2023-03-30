@@ -1,0 +1,37 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0em;
+    padding: 0em;
+}
+
+.profile {
+    color: #000000;
+    display: block;
+}
+
+.title {
+    color: #080808;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
+    text-transform: capitalize;
+}
+
+#option {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #abac7f;
+    box-shadow: rgb(0 0 0 / 10%) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #080808;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    justify-content: center;
+}

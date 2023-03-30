@@ -1,0 +1,53 @@
+
+/* Body controls the background color and the font used. */
+body {
+    background-color: white;
+    font-family: serif;
+}
+
+header.h1 {
+    color: white;
+    background-color: #046DD5;
+}
+
+header.h1.a {
+    color: white;
+    background-color: #2A2F33;
+}
+
+body > header {
+    color: white;
+    background-color: #046DD5;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 1em;
+    padding: 1em;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul {
+    list-style-type: none;
+    color: #2A2F33;
+    text-align: center;
+    display: grid;
+}
+
+#menu ul:nth-child(1) {
+    flex-grow: 1;
+    background-color: #E1493E;
+    margin: 1em;
+    padding: 1em;
+}
+
+aside article {
+    background-color: #2A2F33;
+    color: white;
+    list-style-type: none;
+    margin: 0em, 1em;
+    padding: 0em;
+    display: grid;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/~arestivo/page/css/style.css">
+    <link rel="stylesheet" href="/~arestivo/page/css/code.css">
+    <link rel="icon" type="image/ico" href="/~arestivo/page/favicon.ico"/>
+    <title>André Restivo | LTW 2021/22 (project)</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/~arestivo/page/">André Restivo</a></h1>
+      
+      <ul id="crumbs">
+        <li><a href="/~arestivo/page/">home</a></li>
+        <li>
+          courses
+        </li>
+        <li>
+          <a href="/~arestivo/page/courses/ltw/">ltw</a>
+        </li>
+        <li>
+          <a href="/~arestivo/page/courses/ltw/project/">project</a>
+        </li>
+      </ul>
+      
+    </header>
+  <main>
+    <h1 id="ltw-project">LTW Project</h1>
+<p>Project description for the 2022 edition of the Web Languages and Technologies course.</p>
+<h2 id="objective">Objective</h2>
+<p>Create a website where <strong>restaurants</strong> can list and offer their <strong>menus</strong> for <strong>take-away</strong>. To create this application, students should:</p>
+<ul>
+<li>Create an SQLite <strong>database</strong> that stores information about restaurants, menus, dishes, customers, and orders.</li>
+<li>Create documents using <strong>HTML</strong> and <strong>CSS</strong> representing the application&#39;s web pages.</li>
+<li>Use <strong>PHP</strong> to generate those web pages after retrieving/changing data from the database.</li>
+<li>Use <strong>Javascript</strong> to enhance the user experience (for example, using Ajax).</li>
+</ul>
+<h2 id="workgroups">Workgroups</h2>
+<ul>
+<li>Students will complete this project in <strong>groups of three</strong>.<br><small>In classes where the number of students is not a multiple of three, one or two groups of <strong>two students</strong> will be created.</small></li>
+<li>Students should contact their practical class teachers during the <strong>weekly class</strong>, or using <strong>Slack</strong>, to establish these workgroups.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>Requirements are sparsely defined so that each group has some degree of freedom. </p>
+<p>The minimum expected set of requirements is the following:</p>
+<ul>
+<li><p><strong>All users</strong> should be able to (users can simultaneously be customers and restaurant owners):</p>
+<ul>
+<li><strong>Register</strong> a new account.</li>
+<li><strong>Login</strong> and <strong>Logout</strong>.</li>
+<li>Edit their <strong>profile</strong> (at least username, password, address, and phone number).</li>
+</ul>
+</li>
+<li><p><strong>Restaurant owners</strong> should be able to:</p>
+<ul>
+<li>Add and edit <strong>information</strong> about each one of their <strong>restaurants</strong>. Including the <strong>name</strong>, <strong>address</strong>, and <strong>category</strong>.</li>
+<li>Add a list of <strong>dishes</strong>, their <strong>names</strong>, <strong>prices</strong>, <strong>photos</strong> and <strong>categories</strong>.</li>
+<li>List and respond to <strong>reviews</strong> made by customers.</li>
+<li>List <strong>orders</strong> and change their <strong>state</strong> (<em>e.g.</em>, received, preparing, ready, delivered).</li>
+</ul>
+</li>
+<li><p><strong>Customers</strong> should be able to:</p>
+<ul>
+<li><strong>Search restaurants</strong> by name, dish name, average review score, etc.</li>
+<li><strong>Order</strong> dishes from a single restaurant.</li>
+<li>Mark restaurants and dishes as <strong>favorites</strong>.</li>
+<li><strong>Review</strong> a restaurant they have ordered from (at least score and some text).</li>
+</ul>
+</li>
+</ul>
+<p>Students should also make sure that:</p>
+<ul>
+<li>The following <strong>technologies</strong> are all used:<br>HTML, CSS, PHP, Javascript, Ajax/JSON, PDO/SQL (using sqlite).</li>
+<li>The website should be as <strong>secure</strong> as possible.<br><small>Have special attention to SQL injection, XSS and CSRF attack protection, and good password storage principles.</small> </li>
+<li>Code should be <strong>organized</strong> and <strong>consistent</strong>.</li>
+<li>Design doesn&#39;t need to be <em>top-notch</em> but should be <strong>clean</strong> and <strong>consistent</strong> throughout the site. It should also work on <strong>mobile</strong> devices.</li>
+<li>Frameworks are <strong>not allowed</strong>.</li>
+<li>Small helper libraries (<em>e.g.</em>, displaying a gallery of pictures) <strong>might be</strong> allowed (talk with your practical class teacher).</li>
+</ul>
+<p>Some suggested <strong>additional</strong> requirements. These requirements are a way of making sure each project is unique. You <strong>do not have</strong> to implement all of these:</p>
+<ul>
+<li>Restaurant owners should be able to add <strong>temporary promotions</strong> to dishes.</li>
+<li>There should be a way to keep each dish&#39;s <strong>price history</strong>.</li>
+<li>Users should be able to <strong>send photos</strong> of the dishes they ordered so that other users know what to expect.</li>
+<li>Users should receive a system <strong>notification</strong> every time something significant happens (<em>e.g.</em>, new order, the ordered dish is on its way).</li>
+<li>Add more information about restaurants and dishes.</li>
+<li>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API">geolocation API</a> and restaurant addresses to order the restaurants by distance.</li>
+<li>Add a third type of user, the <strong>driver</strong>, responsible for picking up dishes from restaurants and delivering them to customers.<ul>
+<li>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API">geolocation API</a> to show the driver&#39;s location at any given time.</li>
+<li>Drivers should be able to list restaurants near them that have orders almost ready to be delivered.</li>
+<li>Drivers should be able to see information for orders they were given, including the customer name, address, and phone.</li>
+<li>Drivers should be able to set an order&#39;s state to &#39;delivered.&#39;</li>
+</ul>
+</li>
+<li>Develop a REST API for the front end of the website or third-party services.</li>
+</ul>
+<p>If you prefer, you can create your own additional requirements.</p>
+<h2 id="work-plan">Work Plan</h2>
+<p>This is a proposed plan to guide your work. <strong>No deliverables are expected</strong> or will be evaluated at these dates.</p>
+<ul>
+<li><p><strong>Week 6</strong>:</p>
+<ul>
+<li>Mockups and navigation diagrams for the main pages</li>
+<li>First draft of the database design.</li>
+</ul>
+</li>
+<li><p><strong>Week 7</strong>:</p>
+<ul>
+<li>Finalize database script and create the database.</li>
+<li>Partial implementation of some main pages and first CSS version.</li>
+</ul>
+</li>
+<li><p><strong>Week 8</strong>:</p>
+<ul>
+<li>Most main pages implemented.</li>
+</ul>
+</li>
+<li><p><strong>Week 9</strong>: </p>
+<ul>
+<li>All main pages implemented.</li>
+<li>Start working on secondary features.</li>
+</ul>
+</li>
+<li><p><strong>Week 10</strong>:</p>
+<ul>
+<li>Continue working on secondary features.</li>
+<li>Start working on Javascript and Ajax.</li>
+</ul>
+</li>
+<li><p><strong>Week 11</strong>:</p>
+<ul>
+<li>REST API or other secondary features.</li>
+<li>Testing and code cleanup.</li>
+</ul>
+</li>
+<li><p><strong>Week 12</strong>:</p>
+<ul>
+<li>Finish secondary features.</li>
+<li>Main focus on security aspects.</li>
+</ul>
+</li>
+<li><p><strong>Week 13</strong>:</p>
+<ul>
+<li>Testing and code cleanup.</li>
+</ul>
+</li>
+</ul>
+<p>We recommend that students adopt an <strong>agile</strong> methodology. Don&#39;t start by planning every little detail right from the start, as you run the risk of ending up with a great plan but a poor implementation, but be aware of code organization and quality from the beginning.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p>Evaluation will be done on the following <strong>topics</strong>:</p>
+<ul>
+<li>Complexity (<em>e.g.</em>, implemented features)</li>
+<li>Security (<em>e.g.</em>, XSS, CSRF, injection, password storage)</li>
+<li>Technology (<em>e.g.</em>, correct usage of HTML, CSS, Javascript, Ajax, No frameworks)</li>
+<li>Quality (<em>e.g.</em>, code quality, file organization, consistency)</li>
+<li>User Interface (<em>e.g.</em>, usability, consistency)</li>
+</ul>
+<h2 id="delivery">Delivery</h2>
+<ul>
+<li>Delivery on the <strong>last week</strong> of classes (week 13).</li>
+<li>Presentation on the <strong>week after</strong> that one, remotely.</li>
+</ul>
+
+  </main>
+  <footer>
+    Created using <a href="https://www.npmjs.com/package/sitory">Sitory</a>. Copyright 2022 André Restivo.
+  </footer>
+  </body>
+</html>

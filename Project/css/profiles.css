@@ -1,0 +1,112 @@
+/* profiles css */
+
+.user {
+    color: #080808;
+    position: relative;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
+  
+.profile {
+    left: 0;
+    top: 0;
+    padding: 1em;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-clip: padding-box;
+    border-style: solid;
+    margin: 1em;
+    margin-right: 40em;
+    background-color: transparent;
+    color: #080808;
+}
+
+.profile small {
+    display: none;
+}
+  
+.profile label{
+    display: block;
+    padding: 0.2em;
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+.profile input {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #080808;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    justify-content: center;
+}
+
+#categorys {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #080808;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    justify-content: center;
+}
+  
+.profile button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    box-sizing: border-box;
+    color: #080808;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    padding: 1em 2em 1em 2em;
+    margin: 1em;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+}
+  
+.profile button:hover, .profile button:focus {
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.profile button:hover {
+    transform: translateY(-2px);
+}
+
+.profile button:active {
+    background-color:  #b9b990;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+}
+
+.profile input:hover, .profile input:focus {
+    background-color:  #abac7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.profile input:active {
+    background-color:  #b9b990;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+}
